@@ -5,4 +5,5 @@ const app = express();
 
 app.get("/", (req, res) => res.json({ message: "ok" }));
 
-app.listen(port, () => console.log(`Listening ${port}`));
+// app.listen(port, () => console.log(`Listening ${port}`));
+module.exports = app;
